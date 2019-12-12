@@ -6,6 +6,13 @@ public class StringManipulations {
 
         textCheck();
 
+        String casetest = "Howdy Yall";
+        System.out.println(StringUtils.swapCase(casetest));
+
+        String input = "Howdy Yall";
+
+        System.out.println(StringUtils.reverse(input));
+
 
     }
 
